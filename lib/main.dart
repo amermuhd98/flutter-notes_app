@@ -33,10 +33,7 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
-
 // staret page main dart
-
-
 
 // end page main dart
 
@@ -65,7 +62,7 @@ class _HomePageState extends State<HomePage> {
     }
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.blue.withOpacity(0.5),
         title: Text(
           "Add Note",
           style: TextStyle(fontSize: 25),

@@ -9,7 +9,7 @@ class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.purple,
+      color: Colors.blue.withOpacity(0.5),
       width: double.infinity,
       height: 200,
       padding: EdgeInsets.only(top: 20.0),
@@ -17,14 +17,19 @@ class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
+            child: Icon(
+              Icons.person,
+              size: 50,
+              color: Colors.white,
+            ),
             margin: EdgeInsets.only(bottom: 10),
             height: 80,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              image: DecorationImage(
-                image: AssetImage('assets/images/My pictures.jpeg'),
-              ),
-            ),
+            // decoration: BoxDecoration(
+            //   shape: BoxShape.circle,
+            //   image: DecorationImage(
+            //     image: AssetImage('assets/images/My pictures.jpeg'),
+            //   ),
+            // ),
           ),
           Text(
             "Amer Muhammed",
@@ -39,10 +44,6 @@ class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
           ),
         ],
       ),
-      
     );
-    
   }
 }
-
-

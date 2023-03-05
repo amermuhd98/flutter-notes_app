@@ -15,6 +15,7 @@ class SettingsPage extends StatefulWidget {
 class _SettingsPageState extends State<SettingsPage> {
   bool shouldCheck = false;
   bool shouldCheckDefault = false;
+
   bool shouldCheckDefaul = false;
   bool saveAuto = true;
   @override
@@ -23,7 +24,7 @@ class _SettingsPageState extends State<SettingsPage> {
       // appBar: AppBar(
       //   title: Text("dknc"),
       // ),
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.blue.withOpacity(0.5),
       body: Column(
         // mainAxisAlignment: MainAxisAlignment.center,
         // crossAxisAlignment: CrossAxisAlignment.end,

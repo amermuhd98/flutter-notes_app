@@ -3,8 +3,8 @@ import 'package:floating/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:onboarding_intro_screen/onboarding_screen.dart';
-import 'package:intro_screen_onboarding_flutter/introduction.dart';
-import 'package:intro_screen_onboarding_flutter/introscreenonboarding.dart';
+// import 'package:intro_screen_onboarding_flutter/introduction.dart';
+// import 'package:intro_screen_onboarding_flutter/introscreenonboarding.dart';
 
 class MyAp extends StatefulWidget {
   const MyAp({Key? key}) : super(key: key);
@@ -48,6 +48,7 @@ class _MyApState extends State<MyAp> {
           OnBoardingModel(
             image: SvgPicture.asset("icons/chat.svg"),
             title: "4.5",
+            titleFontSize: 29,
             body: "",
           ),
           OnBoardingModel(

@@ -9,7 +9,7 @@ class _ContactsPageState extends State<ContactsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.blue.withOpacity(0.5),
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -41,12 +41,11 @@ class _ContactsPageState extends State<ContactsPage> {
               margin: EdgeInsets.all(20.0),
               padding: EdgeInsets.all(10.0),
               color: Colors.white,
-              
               child: Row(
                 children: [
                   Icon(
                     Icons.phone,
-                    color: Colors.purple,
+                    color: Colors.blue.withOpacity(0.5),
                   ),
                   SizedBox(
                     width: 15.0,
@@ -65,10 +64,7 @@ class _ContactsPageState extends State<ContactsPage> {
               margin: EdgeInsets.all(20.0),
               child: Row(
                 children: [
-                  Icon(
-                    Icons.email,
-                    color: Colors.purple,
-                  ),
+                  Icon(Icons.email, color: Colors.blue.withOpacity(0.5)),
                   SizedBox(
                     width: 15.0,
                   ),
