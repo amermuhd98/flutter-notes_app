@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
     } else if (currentPage == DrawerSections.privacy_policy) {
       container = PrivacyPolicyPage();
     } else if (currentPage == DrawerSections.send_feedback) {
-      container = SendFeedbackPage();
+      // container = SendFeedbackPage();
     }
     return Scaffold(
       appBar: AppBar(

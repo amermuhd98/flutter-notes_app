@@ -33,7 +33,7 @@ class _MyApState extends State<MyAp> {
         showPrevNextButton: true,
         showIndicator: true,
         backgourndColor: Colors.white,
-        activeDotColor: Colors.purple,
+        activeDotColor: Colors.blue.withOpacity(0.5),
         deactiveDotColor: Colors.grey,
         iconColor: Colors.black,
         leftIcon: Icons.arrow_circle_left_rounded,

@@ -22,6 +22,7 @@ class _ContactsPageState extends State<ContactsPage> {
               'Amer Muhammed',
               style: TextStyle(
                 fontSize: 38.0,
+                
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
               ),
